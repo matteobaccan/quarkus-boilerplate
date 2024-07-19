@@ -3,7 +3,6 @@
  "extends": ["config:recommended"],
  "packageRules": [
      {
-       "matchPackagePatterns": ["^angular"],
        "matchUpdateTypes": ["minor", "patch"],
        "automerge": true
   }
